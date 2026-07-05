@@ -622,6 +622,89 @@ main {
   margin-top: 0;
 }
 
+.world-cup-campaign-card {
+  border: 3px solid #b42318;
+  box-shadow: 0 18px 45px rgba(180, 35, 24, 0.16);
+}
+
+.campaign-terms-warning {
+  display: grid;
+  gap: 8px;
+  padding: 18px 20px;
+  margin: 4px 0 8px;
+  color: #7a271a;
+  background: #fff1f0;
+  border: 2px solid #f04438;
+  border-radius: 14px;
+  line-height: 1.7;
+}
+
+.campaign-terms-warning strong {
+  font-size: clamp(20px, 3vw, 27px);
+  color: #b42318;
+}
+
+.campaign-terms-warning span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.campaign-terms-warning a {
+  width: fit-content;
+  color: #ffffff;
+  background: #b42318;
+  border-radius: 9px;
+  padding: 9px 14px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.campaign-terms-warning a:hover {
+  background: #7a271a;
+}
+
+.campaign-guidelines-button {
+  color: #ffffff;
+  background: #b42318;
+  border-color: #b42318;
+}
+
+.campaign-guidelines-button:hover {
+  background: #7a271a;
+  border-color: #7a271a;
+}
+
+.campaign-song {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(9, 103, 243, 0.18);
+}
+
+.campaign-song-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.campaign-song-heading h4 {
+  margin: 8px 0 0;
+  font-size: 22px;
+}
+
+.campaign-song-heading > strong {
+  color: #b42318;
+  font-size: 14px;
+}
+
+.campaign-video-fallback {
+  width: fit-content;
+  color: var(--blue);
+  font-weight: 800;
+}
+
 .campaign-video-card {
   max-width: 980px;
 }
