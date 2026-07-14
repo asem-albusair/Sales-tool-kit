@@ -622,6 +622,36 @@ main {
   margin-top: 0;
 }
 
+.un-campaign-card {
+  border: 3px solid rgba(18, 116, 184, 0.28);
+  box-shadow: 0 18px 45px rgba(18, 116, 184, 0.14);
+}
+
+.campaign-document-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.campaign-document-grid a {
+  display: grid;
+  gap: 10px;
+  color: var(--blue);
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.campaign-document-grid img {
+  width: 100%;
+  max-height: 620px;
+  display: block;
+  object-fit: contain;
+  background: #eef7ff;
+  border: 1px solid rgba(20, 16, 23, 0.08);
+  border-radius: 12px;
+}
+
 .tarauf-campaign-card {
   border: 3px solid rgba(9, 103, 243, 0.22);
 }
@@ -1187,6 +1217,7 @@ main {
   .proof-grid,
   .ad-grid,
   .social-grid,
+  .campaign-document-grid,
   .campaign-photo-grid,
   .gallery-grid,
   .video-grid,
