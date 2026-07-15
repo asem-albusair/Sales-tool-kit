@@ -668,6 +668,21 @@ main {
   line-height: 1.7;
 }
 
+.referral-reward-note {
+  margin-top: 16px;
+  padding: 16px 18px;
+  color: #063a63;
+  background: #eaf6ff;
+  border: 2px solid rgba(18, 116, 184, 0.24);
+  border-radius: 12px;
+  line-height: 1.8;
+  font-weight: 700;
+}
+
+.referral-reward-note strong {
+  color: var(--blue);
+}
+
 .campaign-document-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
