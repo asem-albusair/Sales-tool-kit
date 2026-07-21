@@ -668,6 +668,25 @@ main {
   line-height: 1.7;
 }
 
+.referral-link-steps {
+  display: grid;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.referral-link-steps ol {
+  margin: 0;
+  padding-inline-start: 20px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.referral-link-steps li {
+  margin-bottom: 2px;
+}
+
 .referral-reward-note {
   margin-top: 16px;
   padding: 16px 18px;
