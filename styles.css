@@ -968,12 +968,13 @@ main {
 }
 
 .success-story-photo {
-  margin: 18px 0 20px;
+  width: min(100%, 620px);
+  margin: 18px auto 20px;
 }
 
 .success-story-photo img {
   width: 100%;
-  max-height: 560px;
+  max-height: 420px;
   display: block;
   object-fit: cover;
   border: 1px solid rgba(20, 16, 23, 0.08);
