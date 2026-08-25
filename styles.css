@@ -644,7 +644,7 @@ main {
 }
 
 .eos-photo-grid {
-  grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .un-campaign-card {
